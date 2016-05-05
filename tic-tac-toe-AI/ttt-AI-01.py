@@ -1,5 +1,5 @@
 import random
-turn=0
+turn=int(input("first move? 0MAN/1BOT:"))
 man=1
 bot=2
 area=[[0,0,0],
@@ -12,7 +12,6 @@ def place(x,y,player):
   return True
  else:
   return False
- #
 while True:
  if turn==0:#man goes
   while True: 
