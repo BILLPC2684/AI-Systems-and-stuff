@@ -79,8 +79,3 @@ while True:
  print(area[0])
  print(area[1])
  print(area[2])
-#  012
-#
-#0 100
-#1 *20
-#2 300
